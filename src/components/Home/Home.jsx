@@ -33,7 +33,7 @@ const Home = () => {
           Canvas Society at my college. I love coding, solving problems, and
           building full-stack applications.
         </p>
-        <Link to="/about">
+        <Link to="/portfolio/about">
           <button className="text-blue-500 hover:underline">Read More</button>
         </Link>
       </section>
@@ -117,7 +117,7 @@ const Home = () => {
       <section className="py-12 text-center">
         <Link
           className="text-lg font-semibold mb-4 hover:underline"
-          to="/contact-us"
+          to="/portfolio/contact-us"
         >
           Get in Touch
         </Link>
