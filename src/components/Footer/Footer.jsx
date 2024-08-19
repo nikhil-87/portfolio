@@ -22,12 +22,12 @@ export default function Footer() {
               </h2>
               <ul className="text-gray-500 font-medium">
                 <li className="mb-4">
-                  <Link to="/" className="hover:underline">
+                  <Link to="/portfolio/" className="hover:underline">
                     Home
                   </Link>
                 </li>
                 <li>
-                  <Link to="/about" className="hover:underline">
+                  <Link to="/portfolio/about" className="hover:underline">
                     About
                   </Link>
                 </li>
@@ -64,12 +64,18 @@ export default function Footer() {
               </h2>
               <ul className="text-gray-500 font-medium">
                 <li className="mb-4">
-                  <Link to="/privacy-policy" className="hover:underline">
+                  <Link
+                    to="/portfolio/privacy-policy"
+                    className="hover:underline"
+                  >
                     Privacy Policy
                   </Link>
                 </li>
                 <li>
-                  <Link to="/terms-and-conditions" className="hover:underline">
+                  <Link
+                    to="/portfolio/terms-and-conditions"
+                    className="hover:underline"
+                  >
                     Terms &amp; Conditions
                   </Link>
                 </li>

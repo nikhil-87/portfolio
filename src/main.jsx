@@ -7,13 +7,13 @@ import Home from "./components/Home/Home.jsx";
 import About from "./components/About/About.jsx";
 import Contact from "./components/Contact/Contact.jsx";
 import Privacy from "./components/PrivacyPolicy/Privacy.jsx";
-import Github from "./Github/Github.jsx";
-import { githubInfoLoader } from "./Github/Github.jsx";
+import Github from "./components/Github/Github.jsx";
+import { githubInfoLoader } from "./components/Github/Github.jsx";
 import TermsAndConditions from "./components/TermsAndConditions/TermsAndConditions.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/portfolio",
     element: <Layout />,
     children: [
       {
